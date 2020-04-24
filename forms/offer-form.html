@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Offer Form Wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="offer-form.css">
+</head>
+
+<body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+        <header>
+            <h3>Create a new offer</h3>
+        </header>
+        <form class='offer-form'>
+            <div>
+                <label for="help-categories">What can you help with?</label>
+                <select id="help-categories" multiple>
+                    <option value="supplies">Picking up supplies</option>
+                    <option value="errands">Running errands</option>
+                    <option value="phone">Phone call</option>
+                    <option value="chat">Online chat</option>
+                    <option value="dog">Walking a dog</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="description">Description (optional)</label>
+                <textarea name='description' id='description'></textarea>
+            </div>
+            <button>Cancel</button>
+            <button type='submit'>Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
