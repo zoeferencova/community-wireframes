@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Location Form Wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="location.css">
+</head>
+
+<body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+        <header>
+            <h3>Location Settings</h3>
+        </header>
+        <div class="map">
+            <p>Placeholder for Google map showing current location</p>
+        </div>
+        <form class='location-form'>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name='address' id='address' />
+            </div>
+            <div>
+                <label for="radius">Radius</label>
+                <input type="number" name='radius' id='radius' />
+                <span>miles</span>
+            </div>
+            <button>Cancel</button>
+            <button type='submit'>Use this location</button>
+        </form>
+    </main>
+</body>
+
+</html>

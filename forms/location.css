@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 1% 0;
+    background-color: #aaa;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.map {
+    height: 250px;
+    width: 90%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+form div {
+    margin: 15px 0px;
+}

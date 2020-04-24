@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+footer, nav {
+    padding: 1% 0;
+    background-color: #aaa;
+}
+  
+header {
+    padding: 45px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+section {
+    min-height: 200px;
+    padding: 30px 15px;
+    background-color: #bbb;
+}
+  
+section:nth-child(even) {
+    background-color: #ddd;
+}
+  
+p {
+    margin: 0 auto;
+    max-width: 650px;
+}
+  
+p + p {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.map-section {
+    width: 95%;
+}
+
+.map {
+    height: 250px;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.user-posts li {
+    background-color: #ddd;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 20px;
+    text-align: left;
+    margin: 15px 0px;
+}
+
+.post-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-button {
+    padding: 10px;
+    margin-top: 15px;
+    width: 50%;
+    align-self: center;
+}
+
+.tasks {
+    display: flex;
+}
+
+.tasks li {
+    border: 1px solid gray;
+    padding: 4px 7px;
+    margin-right: 8px;
+    font-size: 13px;
+}
+
+.post h4 {
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .map-section {
+        width: 40%;
+    }
+    .post {
+        width: 500px;
+    }
+}
